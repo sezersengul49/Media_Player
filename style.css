@@ -6,7 +6,7 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(to bottom, red,green);
+    background: linear-gradient(to bottom, rgb(229, 255, 0),rgb(5, 218, 207));
 }
 
 .music-player{
@@ -64,7 +64,7 @@ img{
     background-color: transparent;
 }
 #play, #pause{
-    background-color: blue;
+    background-color: rgb(0, 255, 0);
     color: white;
     height: 2.5em;
     width: 2.5em;
@@ -97,7 +97,7 @@ img{
 }
 
 #current-progress{
-    background-color: blue;
+    background-color: rgb(123, 255, 0);
     border-radius: 2em;
     display: inline-block;
     position: absolute;
